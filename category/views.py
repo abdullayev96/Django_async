@@ -16,8 +16,7 @@ from django.http import JsonResponse
 #         return Response(serializer.data)
 
 
-
-class AuthorListAPI(View):  # DRF emas, Django's View
+class CategoryListAPI(View):  # DRF emas, Django's View
     async def get(self, request):
         data = await sync_to_async(self.get_data)()
         return JsonResponse(data, safe=False)
