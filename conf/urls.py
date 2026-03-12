@@ -11,6 +11,7 @@ urlpatterns = [
     path('api/', include("category.urls")),
     path('api/', include("author.urls")),
     path('api/', include("book.urls")),
+    path('api/', include("account.urls")),
 
     path('schema/', SpectacularAPIView.as_view(), name='schema'),
     path('swagger/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
@@ -25,5 +26,5 @@ if settings.DEBUG:
 
 
 
-#####  adminuser
-##### 12345
+#####  note@gmail.com
+##### 12345676767676767

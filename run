@@ -1,0 +1,5 @@
+# Avval o'rnating
+pip install uvicorn
+
+# Keyin ASGI serverini ishga tushiring
+uvicorn conf.asgi:application --reload
